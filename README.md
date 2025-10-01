@@ -1,4 +1,4 @@
-#⏰ Analog Watch – Web Application
+⏰#Analog Watch – Web Application
 
 This project is a simple Analog Watch UI built using HTML, CSS, and JavaScript. The watch dynamically updates every second to show the current time in an analog style.
 
