@@ -1,4 +1,6 @@
-##Analog Watch – Web Application
+**Analog Watch – Web Application**
+
+
 
 This project is a simple Analog Watch UI built using HTML, CSS, and JavaScript. The watch dynamically updates every second to show the current time in an analog style.
 
@@ -10,14 +12,14 @@ CSS for styling and positioning.
 
 JavaScript logic for drawing and updating the clock hands in real time.
 
-📂 Project Structure
-project-root/
-│
-├── index.html      # Main HTML file with clock UI and logic
-├── styles.css      # (Optional) You can extract inline CSS into this file
-├── README.md       # Documentation
+**📂 Project Structure**
 
-⚙️ How It Works
+    project-root/
+    │
+    ├── index.html      # Main HTML file with clock UI and logic
+    ├── README.md       # Documentation
+
+**⚙️ How It Works**
 
 HTML provides the structure and links JavaScript.
 
@@ -33,7 +35,7 @@ Calculates hour, minute, and second hand positions based on system time.
 
 Updates the UI every second using setInterval().
 
-🔄 Workflow
+**🔄 Workflow**
 
 The page loads → Browser executes index.html.
 
