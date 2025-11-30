@@ -37,7 +37,6 @@ body{
     let c = canvas2D({ width: px(2 * cx), height: px(2 * cy) })
     c.ctx.lineCap = "round"
     unselectBase()
-
     // Paint anything radial
     function tick(color, width, angle, length, innerlength =0 ) {
       function ls(length) { return length * Math.sin(angle / 180.0 * Math.PI) }
