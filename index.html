@@ -22,7 +22,6 @@ body{
   </style>
 </head>
 <body>
-
 <script>
   "use strict";
     const cx = 210, cy = 210;  // Radius
@@ -31,7 +30,6 @@ body{
       + "border-radius: 50%; margin: 50px;"
       + "box-shadow: -4px -4px 10px rgba(67,67,67,0.5), inset 4px 4px 10px rgba(0,0,0,0.5),"
       + "inset -4px -4px 10px rgba(67,67,67,0.5), 4px 4px 10px rgba(0,0,0,0.3);"
-
     sidiv("", _clockstyle)
     let c = canvas2D({ width: px(2 * cx), height: px(2 * cy) })
     c.ctx.lineCap = "round"
@@ -64,7 +62,5 @@ body{
     drawClock()
     setInterval(drawClock, 1000)
   </script>
-
 </body>
-
 </html>
