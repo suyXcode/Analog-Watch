@@ -36,6 +36,11 @@ Calculates hour, minute, and second hand positions based on system time.
 
 Updates the UI every second using setInterval().
 
+**Architecture**
+![Alt Text](diagram.png)
+
+
+
 **🔄 Workflow**
 
 The page loads → Browser executes index.html.
