@@ -37,7 +37,7 @@ Calculates hour, minute, and second hand positions based on system time.
 Updates the UI every second using setInterval().
 
 **Architecture**
-![Alt Text](diagram (1).png)
+![Alt Text](diagram.png)
 
 
 
