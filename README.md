@@ -1,59 +1,54 @@
-**Analog Watch – Web Application**
-
-
+# Analog Watch – Web Application
 
 This project is a simple Analog Watch UI built using HTML, CSS, and JavaScript. The watch dynamically updates every second to show the current time in an analog style.
 
-It demonstrates:
+## It demonstrates:
 
+- HTML structure for rendering.
+- CSS for styling and positioning.
+- JavaScript logic for drawing and updating the clock hands in real time.
+  
+---
 
-HTML structure for rendering.
-
-CSS for styling and positioning.
-
-JavaScript logic for drawing and updating the clock hands in real time.
-
-**📂 Project Structure**
+## 📂 Project Structure
 
     project-root/
     │
     ├── index.html      # Main HTML file with clock UI and logic
     ├── README.md       # Documentation
 
-**⚙️ How It Works**
+---
+
+## ⚙️ How It Works**
 
 HTML provides the structure and links JavaScript.
 
 CSS applies background, font, and clock container styling.
 
-JavaScript:
+## JavaScript:
 
-Uses the canvas API for drawing.
+- Uses the canvas API for drawing.
+- Draws clock ticks (hours & minutes).
+- Calculates hour, minute, and second hand positions based on system time.
+- Updates the UI every second using setInterval().
 
-Draws clock ticks (hours & minutes).
+---
 
-Calculates hour, minute, and second hand positions based on system time.
 
-Updates the UI every second using setInterval().
-
-**Architecture**
+## Architecture
 ![Alt Text](diagram.png)
 
 
 
-**🔄 Workflow**
+## 🔄 Workflow
 
-The page loads → Browser executes index.html.
+- The page loads → Browser executes index.html.
+- A styled circular clock face is created with ticks and shadows.
+- JavaScript retrieves the current time using Date().
+- The hour, minute, and second hands are drawn using trigonometric calculations (sin & cos).
+- The clock is updated every second.
 
-A styled circular clock face is created with ticks and shadows.
-
-JavaScript retrieves the current time using Date().
-
-The hour, minute, and second hands are drawn using trigonometric calculations (sin & cos).
-
-The clock is updated every second.
-
-**🚀 How to Run**
+## 🚀 How to Run
 
 Clone or download the project.
 
@@ -65,7 +60,7 @@ Clone or download the project.
 
     You’ll see a live Analog Watch running in the center of the page.
 
-**🖼️ Features**
+## 🖼️ Features
 
     Real-time analog clock with second, minute, and hour hands.
     Color-coded hands for better visibility:
@@ -80,7 +75,7 @@ Clone or download the project.
 
     Fully responsive canvas-based rendering.
 
-**🛠️ Technologies Used**
+## 🛠️ Technologies Used
 
     HTML5 – Page structure
 
@@ -90,7 +85,7 @@ Clone or download the project.
 
     Canvas 2D API – Rendering the watch UI
 
-**📌 Notes**
+## 📌 Notes
 
     The clock runs entirely on the client-side (no backend needed).
 
