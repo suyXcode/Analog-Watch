@@ -19,6 +19,13 @@ This project is a simple Analog Watch UI built using HTML, CSS, and JavaScript. 
 
 ---
 
+
+## Preview
+![Alt Text](sk.png)
+
+
+
+
 ## ⚙️ How It Works**
 
 HTML provides the structure and links JavaScript.
