@@ -1,0 +1,16 @@
+html {
+    background: #f69f4e;
+    text-align: center;
+    font-size: 10px;
+  }
+  
+  body{
+    padding:30;
+    padding-left: 30%;
+    margin:10;
+    font-size: 2rem;
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+  }
